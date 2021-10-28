@@ -1,0 +1,274 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bookman Old Style';
+    background-color: #F5E8C7;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Garamond;
+    color: #75696e;
+}
+
+#menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #DEBA9D;
+    z-index: 1;
+    border-bottom: 1px solid #6F4C5B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #6F4C5B;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #75696e;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #6F4C5B;
+    width: 20px;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.box {
+    background: url(https://as1.ftcdn.net/v2/jpg/03/71/98/88/1000_F_371988886_4l0P3YZFnOip5nIzmm7dXH8E8vXJH3bB.jpg);
+    width: max-content;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+}
+
+#box {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+#box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #6F4C5B
+}
+
+#box p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #6F4C5B
+}
+
+.Curriculumvitae-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Curriculumvitae-list p:hover {
+    text-decoration: underline;
+}
+
+.Curriculumvitae-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Curriculumvitae-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.Curriculumvitae-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #6F4C5B;
+}
+
+.activity img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#Contactme {
+    background: #6F4C5B;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #9E7777;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F5E8C7;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .Curriculumvitae-tutor {
+        width: 50%;
+    }
+    .tombol-menu {
+        position: absolute;
+        top: 1.7rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+    }
+    .tombol-menu .garis {
+        height: 3px;
+        background-color: #6F4C5B;
+    }
+    @media screen and (max-width: 991.98px) {
+        .logo a {
+            display: inline;
+        }
+        .tombol-menu {
+            display: flex;
+        }
+        nav .menu {
+            display: none;
+        }
+        nav .menu.active {
+            display: flex;
+        }
+        nav ul li {
+            width: 100%;
+            border-bottom: 1px solid #333333;
+        }
+    }
+}
